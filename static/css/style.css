@@ -1,0 +1,94 @@
+/* ============================================ ROOM ===================================================== */
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800') format('truetype');
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 75px;
+    color: white !important;
+    text-align: center;
+}   
+.navbar-brand span{
+    color: #00FFCB; 
+}
+/* ----------------- back to login button -------------------- */
+svg {
+  padding: 5px;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  outline: 0;
+
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+  margin-top: -50px;
+}
+
+.back-btn:hover polyline,
+.back-btn:focus polyline {
+  stroke-width: 10;
+}
+
+.back-btn:active polyline {
+  stroke-width: 12;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
+/* ---------------------------------- */
+
+.scrollto-bottom {
+  background: transparent;
+  border: none;
+  outline: 0;
+
+  cursor: pointer;
+  position: fixed;
+  left: 3px;
+  bottom: 30px; 
+}
+
+.scrollto-bottom:hover polyline,
+.scrollto-bottom:focus polyline {
+  stroke-width: 10;
+}
+
+.scrollto-bottom:active polyline {
+  stroke-width: 12;
+  transition: all 100ms ease-in-out;
+}
+
+/* ---------------------------------- */
+
+.scrollto-top {
+  background: transparent;
+  border: none;
+  outline: 0;
+
+  cursor: pointer;
+  position: fixed;
+  left: 2px;
+  bottom: 70px; 
+}
+
+.scrollto-top:hover polyline,
+.scrollto-top:focus polyline {
+  stroke-width: 10;
+}
+
+.scrollto-top:active polyline {
+  stroke-width: 12;
+  transition: all 100ms ease-in-out;
+}
+
