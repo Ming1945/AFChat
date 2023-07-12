@@ -9,18 +9,19 @@ body {
   max-width: 800px;
   padding: 0 20px;
 
-  background: url('../images/chat_wallpaper.png');
-  background-repeat: no-repeat;
+  background-image: url('../static/images/login_wallpaper.png');
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
-  border: 2px solid #dedede;
-  background-color: #f1f1f1;
+  border: 2px solid #333333;
+  background-color: rgba(26, 26, 26, 0.5);
   border-radius: 5px;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 20px;
+  margin: 10px 270px;
+  font-size: 20px;
 }
 
 .darker {
@@ -40,8 +41,6 @@ body {
   width: 100%;
   margin-right: 20px;
   border-radius: 50%;
-
-
 }
 
 .container img.right {
@@ -65,7 +64,7 @@ body {
 
 <div align="center">
     <h2>Welcome to real-time AFChat</h2>
-    <p>This application built using Django that involves integrating Django with additional technologies that enable real-time communication.</p>
+    <p>This app built using Django that involves integrating Django with additional technologies that enable real-time communication.</p>
     <p>To join or host a chat room, simply enter a room name and choose a username. That's all it takes!</p>
     <p>All content, media, and login data are stored in the database.</p>
   </div>
@@ -81,27 +80,47 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 16px;
     }
 
     input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
+    font-size: 18px;
+
+    display: inline-block;
+    outline: 0;
+    appearance: none;
+    padding: 0px 12px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(30, 121, 99);
+    box-shadow: rgba(19, 170, 82, 0.4) 0px 5px 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 36px;
+    transition: all 150ms ease-in-out 0s;
+    margin-top: 30px;
     }
 
     input[type=submit]:hover {
-    background-color: #45a049;
+      color: rgb(255, 255, 255);
+      background-color: rgb(17, 97, 73);
+      box-shadow: 0px 2px 3px rgba(0, 255, 203, 0.4), 0px 0px 0px 3px #00FFCB;
     }
 
     div {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+    background-color: transparent;
+    color: #F8F8F8;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 45px;
     }
     </style>
 

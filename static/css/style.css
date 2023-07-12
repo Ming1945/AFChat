@@ -46,7 +46,7 @@ svg {
 polyline {
   transition: all 250ms ease-in-out;
 }
-/* ---------------------------------- */
+/* --------------- Scroll to bottom Button ------------------- */
 
 .scrollto-bottom {
   background: transparent;
@@ -69,7 +69,7 @@ polyline {
   transition: all 100ms ease-in-out;
 }
 
-/* ---------------------------------- */
+/* ---------------- Scroll to bottom Button ------------------ */
 
 .scrollto-top {
   background: transparent;
@@ -92,3 +92,4 @@ polyline {
   transition: all 100ms ease-in-out;
 }
 
+/* ============================================ HOME =================================================== */
