@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "afchat"
+version = "0.1.0"
+description = ""
+authors = ["Ming1945 <ming.fc45«yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+pillow = "^10.0.0"
+psycopg2-binary = "^2.9.6"
+gunicorn = "^20.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
