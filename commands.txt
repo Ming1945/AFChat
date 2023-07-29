@@ -2,4 +2,4 @@ To get requirements : pip freeze > requirements.txt
 
 To build docker image and publish docker container from the image
 docker build --tag afchat . 
-docker run --publish 8000:8000 afchat
+docker run --publish 8001:8001 afchat

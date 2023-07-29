@@ -27,7 +27,7 @@ SECRET_KEY = 'm%c30v(4=6q!_ouzf5xx9l7n89pl0#l16lo6+z*g4!49-63@t#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -127,3 +127,5 @@ STATICFILES_DIRS = [
 ]
 
 # STATIC_ROOT = os.path.join(CORE_DIR, "static")
+
+CSRF_TRUSTED_ORIGINS = ['https://*.anthonycahyadi.com']

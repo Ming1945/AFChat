@@ -1,8 +1,0 @@
-services:
-  web:
-    build: .
-    command: ./start-server.sh
-    ports:
-      - 8000:80
-    expose:
-      - 8000
